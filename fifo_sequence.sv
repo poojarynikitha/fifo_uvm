@@ -1,3 +1,4 @@
+class fifo_sequence extends uvm_sequence#(fifo_seq_item);
 
   `uvm_object_utils(fifo_sequence)
   fifo_seq_item fifo;//creating handle for fifo_seq_item
