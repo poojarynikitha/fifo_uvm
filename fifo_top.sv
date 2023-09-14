@@ -1,3 +1,12 @@
+
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+`include "fifo_interface.sv"
+`include "fifo_test.sv"
+
+
+
+
 module tb;
   bit clk;
   bit rstn;
