@@ -1,3 +1,4 @@
+
 class fifo_seq_item extends uvm_sequence_item;
 
   //---------------------------------------
@@ -49,4 +50,4 @@ class fifo_seq_item extends uvm_sequence_item;
 
 endclass
 
-//sequence
+
