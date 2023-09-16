@@ -53,7 +53,7 @@
         item_got_port.write(item_got);
       end
       if((vif.m_mp.m_cb.i_wren==0)&&(vif.m_mp.m_cb.i_rden==0))begin
-        $display("\n niether write en and  read en is low");
+             $display("\n niether write enable and  read enable is low");
         item_got.i_wren = 'b0;
         item_got.i_rden = 'b0;
         item_got_port.write(item_got);
