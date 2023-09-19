@@ -1,4 +1,4 @@
-`include "fifo_sequence_item.sv"
+`include "fifo_seq_item.sv"
 `include "fifo_sequence.sv"
 `include "fifo_sequencer.sv"
 `include "fifo_driver.sv"
